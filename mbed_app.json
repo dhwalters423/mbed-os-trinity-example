@@ -17,6 +17,10 @@
             "update-client.storage-size"     : "(1024*1024*2)",
             "update-client.storage-locations": "1",
             "mbed-trace.enable": null
+        },
+        "NUCLEO_L476RG": {
+            "target.features_add": ["CLOUD"],
+            "target.extra_labels_add": ["WIFI_IDW01M1", "SD_CARD"]
         }
     },
     "config": {
